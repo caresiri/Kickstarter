@@ -1,3 +1,5 @@
+library(readr)
+library(dplyr)
 Technology <- read_csv("exploratory/Technology.csv")
 
 tec1 <- Technology %>% mutate(projecturl = urls) #create a column to extract url

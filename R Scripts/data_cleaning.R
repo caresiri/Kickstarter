@@ -1,5 +1,7 @@
 # Set libPaths.
 .libPaths("/Users/macbokk/.exploratory/R/4.0")
+#h1 and h2 dataset Kickstarter_2020-08-13T03_20_17_470Z
+#h3 dataset Kickstarter_2020-07-16T03_20_08_086Z
 
 # Load required packages.
 library(janitor)
@@ -14,8 +16,8 @@ library(dplyr)
 library(tibble)
 library(bit64)
 library(exploratory)
-
-path <- "/Volumes/GoogleDrive/My Drive/INCAE Work Drive/Investigador/Proyectos/Kickstarter/Kickstarter/Data"
+setwd("/Volumes/GoogleDrive/My Drive/INCAE Work Drive/Investigador/Proyectos/Kickstarter/Kickstarter/exploratory")
+path <- "/Volumes/GoogleDrive/My Drive/INCAE Work Drive/Investigador/Proyectos/Kickstarter/Kickstarter/Kickstarter_2020-07-16T03_20_08_086Z"
 # Custom R function as Data.
 R_Script_Data.func <- function(){
   library(readr)
