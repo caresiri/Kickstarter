@@ -44,7 +44,8 @@ original dataset was obtained from
 This data was used to webscrape the listed URLs.
 
 The dataset used for this analysis can be obtained from the following
-link: [Data](https://exploratory.io/data/cDb6UEd0cT/gmP2huP4Jo "Data")
+link:
+[Data](https://exploratory.io/data/cDb6UEd0cT/Dataset-UMl4lAH6sb "Data")
 
 ## Variables
 
